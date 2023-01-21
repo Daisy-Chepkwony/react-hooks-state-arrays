@@ -18,6 +18,7 @@ function SpicyFoodList() {
   return (
     <div>
       <button onClick={handleAddFood}>Add New Food</button>
+      <input type="text"  name="newTodo" value={setFoods} onChange={handleAddFood} />
       <ul>{foodList}</ul>
     </div>
   );
